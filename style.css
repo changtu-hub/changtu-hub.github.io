@@ -163,6 +163,17 @@ h2 {
   border-bottom: 1px solid rgba(0,0,0,.075);
   border-top-left-radius: .25rem;
   border-top-right-radius: .25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.card-title {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .card-content {
@@ -177,7 +188,19 @@ h4 {
 }
 
 .job-title {
-  float: right;
+  font-weight: 600;
+  color: #154734;
+  font-size: 0.95rem;
+}
+
+.card-logo {
+  flex: 0 0 auto;
+}
+
+.card-logo img {
+  display: block;
+  max-height: 50px;
+  width: auto;
 }
 
 /*PROJECTS*/
@@ -274,4 +297,3 @@ h4 {
 .white-text {
   color: white;
 }
-
